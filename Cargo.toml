@@ -14,7 +14,7 @@ travis-ci = { repository = "https://github.com/kwohlfahrt/enum-tryfrom" }
 members = ["derive"]
 
 [dependencies]
-clippy = {version = "*", optional = true}
+clippy = {version = "0.0.136", optional = true}
 compiletest_rs = {version = "0.2", optional = true}
 
 [features]

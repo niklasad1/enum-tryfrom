@@ -9,7 +9,7 @@ repository = "https://github.com/kwohlfahrt/enum-tryfrom"
 [dependencies]
 syn = "0.11"
 quote = "0.3"
-clippy = {version = "*", optional = true}
+clippy = {version = "0.0.136", optional = true}
 
 [lib]
 proc-macro = true
